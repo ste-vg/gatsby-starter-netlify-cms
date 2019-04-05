@@ -11,7 +11,7 @@ collections:
     files:  
       - name: "weight"
         label: "Weight"
-        file: "src/data/weight.yml"
+        file: "src/data/weight.json"
         fields:
           - label: "Steve"
             name: "steve"
