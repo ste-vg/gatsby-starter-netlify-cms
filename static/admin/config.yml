@@ -6,6 +6,15 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "steve"
+    label: "Steve"
+    - name: "event"
+      label: "Event"
+      fields: 
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Value", name: "value", widget: "number"}
+
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
