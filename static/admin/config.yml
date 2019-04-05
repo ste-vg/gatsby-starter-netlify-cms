@@ -8,11 +8,13 @@ public_folder: /img
 collections:
   - name: "steve"
     label: "Steve"
-    - name: "event"
-      label: "Event"
-      fields: 
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Value", name: "value", widget: "number"}
+    fields:
+    - label: "Weight"
+      name: "weight"
+      widget: "list"
+      fields:
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Value", name: "value", widget: "number"}
 
 
   - name: "blog"
