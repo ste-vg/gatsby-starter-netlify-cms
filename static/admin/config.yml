@@ -6,15 +6,25 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "steve"
-    label: "Steve"
-    fields:
-    - label: "Weight"
-      name: "weight"
-      widget: "list"
-      fields:
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Value", name: "value", widget: "number"}
+  - name: "events"
+    label: "Events"
+    files:  
+      - name: "weight"
+        label: "Weight"
+        file: "src/data/weight.yml"
+        fields:
+          - label: "Steve"
+            name: "steve"
+            widget: "list"
+            fields:
+            - {label: "Date", name: "date", widget: "datetime"}
+            - {label: "Value", name: "value", widget: "number"}
+          - label: "Chelle"
+            name: "chelle"
+            widget: "list"
+            fields:
+            - {label: "Date", name: "date", widget: "datetime"}
+            - {label: "Value", name: "value", widget: "number"}
 
 
   - name: "blog"
